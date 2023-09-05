@@ -22,12 +22,10 @@ jobs:
 
       - run: docker build -t ndomanyo/docker-tutorial-complex-react-test -f ./client/Dockerfile.dev ./client
       - run: docker run -e CI=true ndomanyo/docker-tutorial-complex-react-test npm test
-
       - run: docker build -t ndomanyo/docker-tutorial-complex-client ./client
       - run: docker build -t ndomanyo/docker-tutorial-complex-nginx ./nginx
       - run: docker build -t ndomanyo/docker-tutorial-complex-server ./server
       - run: docker build -t ndomanyo/docker-tutorial-complex-worker ./worker
-
       - run: docker push ndomanyo/docker-tutorial-complex-client
       - run: docker push ndomanyo/docker-tutorial-complex-nginx
       - run: docker push ndomanyo/docker-tutorial-complex-server
