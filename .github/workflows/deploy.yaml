@@ -32,5 +32,3 @@ jobs:
       - run: docker push ndomanyo/docker-tutorial-complex-nginx
       - run: docker push ndomanyo/docker-tutorial-complex-server
       - run: docker push ndomanyo/docker-tutorial-complex-worker
-
-
