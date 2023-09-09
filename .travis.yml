@@ -21,4 +21,4 @@ after_success:
   - docker push ndomanyo/docker-tutorial-complex-client
   - docker push ndomanyo/docker-tutorial-complex-nginx
   - docker push ndomanyo/docker-tutorial-complex-server
-  - docker push ndomanyo/docker-tutorial-complex-worker 
+  - docker push ndomanyo/docker-tutorial-complex-worker
