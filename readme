@@ -1,0 +1,4 @@
+# docker build image
+docker build -f Dockerfile.dev -t ndomanyo/docker-tutorial-complex-client . 
+# docker run image and expose to port
+docker run -p 3000:3000 ndomanyo/docker-tutorial-complex-client
